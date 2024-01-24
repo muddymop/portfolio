@@ -1,0 +1,44 @@
+/* Colour palette
+Text for emphasis (dark navy) - #183152
+Text for sub-importance (blue) - #375d81
+Background for focus (blue) - #abc8e2
+Background for sub-focus (baby blue) - #c4d7ed
+Background for alternative (lilac) - #e1e6fa */
+
+.focus {
+  background-color: #abc8e2;
+}
+
+.subfocus {
+  background-color: #c4d7ed;
+}
+
+.bg-alternate {
+  background-color: #e1e6fa;
+}
+
+.muddymop-strong {
+  font-family: 'Kalam', cursive;
+  font-weight: 700;
+  color: #183152;
+}
+
+.muddymop-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #595856;
+}
+
+.border-dashed {
+  --bs-border-style: dashed;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
